@@ -8,12 +8,12 @@ function lastImageSelector(){
   
 }
 function ninjaBabySelector(){
-  return $('".pics" "baby-ninja"');
+  return $('.pics "baby-ninja"');
   }
 function divSelector(){
   return $('.pics');
 }
 function firstListItem(){
-  return $('div:last ul:first-child');
+  return $('div ul:first-child');
 }
 
