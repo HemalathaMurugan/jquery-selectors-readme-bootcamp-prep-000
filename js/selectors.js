@@ -5,12 +5,11 @@ function paragraphSelector(){
   return par;
 }
 function lastImageSelector(){
-  let last=$('img:last');
-  return last;
+ $('img:last');
+  return 
 }
 function ninjaBabySelector(){
-  let ninja=$("baby-ninja");
-  return ninja;
-}
+  return $("baby-ninja");
+  }
 
 
